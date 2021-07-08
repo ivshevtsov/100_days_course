@@ -82,6 +82,7 @@ print(f'You have a:\n {end} years or\n {end*12} month '
 
 #24
 print('#Video 24#')
+'''
 #calculate tips
 print('Welcome to the tip calculator.')
 total_bill = float(input('What was the total bill?'))
@@ -89,6 +90,7 @@ percent_bill = int(input('What percentage tip would you like give? 10, 12 or 15?
 n_people = int(input('How many people to split the bill?'))
 result = total_bill*(1+percent_bill/100)/n_people
 print(f'Each person should pay: ${round(result,2)}')
+'''
 
 
 
