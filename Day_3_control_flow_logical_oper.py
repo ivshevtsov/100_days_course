@@ -1,6 +1,4 @@
 
-
-
 #27
 print('#Video 27#')
 #conditional statements
@@ -190,7 +188,7 @@ Text_question_1 = "You're at a cross road. Where do you want to go? Type 'left o
 Text_question_2 = "You come to a lake. There is an island in the middle of the lake\n" \
                   "Type 'wait' to wait for a boat. Type 'swim' to swim across.\n"
 Text_question_3 = "You are arrived at the island unharmed. There is a house with 3 doors.\n" \
-                  "One red, one yellow and one blue. Which colour do you choose?"
+                  "One red, one yellow and one blue. Which colour do you choose?\n"
 #Win pictire
 WIN = r'''
  _    _ _____ _   _ 
@@ -235,7 +233,7 @@ print('Welcome to Tresure Island')
 print('Your mission to find treasure')
 if input(Text_question_1).lower() == 'left':
     if input(Text_question_2).lower() == 'wait':
-        if input('Which Door.Red/Blue/Yellow :').lower() == 'yellow':
+        if input(Text_question_3).lower() == 'yellow':
             print(WIN)
         else:
             print(Over)
